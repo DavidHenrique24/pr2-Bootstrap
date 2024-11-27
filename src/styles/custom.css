@@ -19,4 +19,20 @@ body {
 .navbar-nav .nav-item {
   margin-right: 15px;
   color: #2B2B2B;
+}
+
+.custom-text {
+  font-size: 65.34px;
+  font-weight: 600;
+  line-height: 82px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #2B2B2B;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 50;
 }/*# sourceMappingURL=custom.css.map */

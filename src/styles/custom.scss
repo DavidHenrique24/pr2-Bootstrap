@@ -12,6 +12,7 @@ $font-size: 1.25rem;
 $letter-spacing: 2px; 
 $nav-item-margin: 15px; 
 $verde:#285E67;
+$negro:#2B2B2B;
 
 $logo-font-size: 30px; // Tamaño personalizado para el texto del logo
 
@@ -30,6 +31,20 @@ $logo-font-size: 30px; // Tamaño personalizado para el texto del logo
 
   .nav-item {
     margin-right: $nav-item-margin; 
-    color: #2B2B2B;
+    color: $negro;
   }
+}
+.custom-text {
+font-size: 65.34px;
+font-weight: 600;
+line-height: 82px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: $negro;
+
+}
+p{
+    font-size: 20px;
+    font-weight: 50;
 }
