@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #285E67;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+}
+.navbar-nav .nav-item {
+  margin-right: 15px;
+  color: #2B2B2B;
+}/*# sourceMappingURL=custom.css.map */

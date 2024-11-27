@@ -1,0 +1,35 @@
+// src/styles/custom.scss
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+$font-size: 1.25rem; 
+$letter-spacing: 2px; 
+$nav-item-margin: 15px; 
+$verde:#285E67;
+
+$logo-font-size: 30px; // Tamaño personalizado para el texto del logo
+
+.navbar-brand {
+  font-size: $logo-font-size; 
+  letter-spacing: 1px; 
+  color: $verde;        
+}
+
+
+.navbar-nav {
+  .nav-link {
+    font-size: $font-size; 
+    letter-spacing: $letter-spacing; // Para hacer espacio entre letras
+  }
+
+  .nav-item {
+    margin-right: $nav-item-margin; 
+    color: #2B2B2B;
+  }
+}

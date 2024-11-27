@@ -1,0 +1,9 @@
+// src/styles/bootstrap.scss
+
+// Sobrescribe variables de Bootstrap
+$primary: green;
+
+
+
+// Importa Bootstrap desde node_modules
+@import "bootstrap/scss/bootstrap";
