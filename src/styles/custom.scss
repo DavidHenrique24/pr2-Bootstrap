@@ -8,17 +8,20 @@ body {
     margin-top: 20px;
 }
 
+
 $font-size: 1.25rem; 
-$letter-spacing: 2px; 
-$nav-item-margin: 15px; 
+$espacio: 2px; 
 $verde:#285E67;
 $negro:#2B2B2B;
+$bordes: 30px;
+$gris: #F4F4F4;
+
 
 $logo-font-size: 30px; // Tamaño personalizado para el texto del logo
 
 .navbar-brand {
   font-size: $logo-font-size; 
-  letter-spacing: 1px; 
+  letter-spacing: $espacio; 
   color: $verde;        
 }
 
@@ -26,11 +29,11 @@ $logo-font-size: 30px; // Tamaño personalizado para el texto del logo
 .navbar-nav {
   .nav-link {
     font-size: $font-size; 
-    letter-spacing: $letter-spacing; // Para hacer espacio entre letras
+    letter-spacing: $espacio; 
   }
 
   .nav-item {
-    margin-right: $nav-item-margin; 
+    margin-right: 15px; 
     color: $negro;
   }
 }
@@ -39,12 +42,32 @@ font-size: 65.34px;
 font-weight: 600;
 line-height: 82px;
 text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
 color: $negro;
-
 }
 p{
     font-size: 20px;
     font-weight: 50;
 }
+
+.btnRedondo{
+padding: 16px;
+gap: 16px;
+width: 211px;
+height: 56px;
+background-color: $verde;
+border-radius: 67px;
+}
+.cuadrado{
+  width: 50%;
+  height: auto;
+  border-radius: $bordes;
+}
+
+.icono{
+  border-radius: 20%;
+  width: 80px;
+  padding: auto;
+
+}
+
+
