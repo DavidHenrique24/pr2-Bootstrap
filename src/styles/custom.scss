@@ -1,8 +1,9 @@
 // src/styles/custom.scss
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
+
 
 .container {
     margin-top: 20px;
@@ -16,11 +17,8 @@ $negro:#2B2B2B;
 $bordes: 30px;
 $gris: #F4F4F4;
 
-
-$logo-font-size: 30px; // Tamaño personalizado para el texto del logo
-
 .navbar-brand {
-  font-size: $logo-font-size; 
+  font-size: 40px; 
   letter-spacing: $espacio; 
   color: $verde;        
 }
@@ -68,10 +66,12 @@ border-radius: 67px;
   width: 60px;
   padding: auto;
 
+
 }
 
 .bordeRedondo{
   border-radius: 20px;
   padding-left: 50px;
 }
+
 
