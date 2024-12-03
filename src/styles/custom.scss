@@ -75,9 +75,36 @@ border-radius: 67px;
 }
 
 .rosado{
+  font-size: 0.5rem; 
   background-color: #FCE2D7;
-
+  width: 90%;
+  border-radius: $bordes;
+  position: absolute;
   
 }
+
+.espacio{
+  margin: 150px;
+}
+.footer{
+  background-color: #285E67;
+}
+.footer {
+  background-color: #285E67; /* Color de fondo del footer */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+
+
+.iconoRedes {
+  font-size: 1.5rem; 
+  margin-left:25px;
+
+}
+
+
+
 
 
