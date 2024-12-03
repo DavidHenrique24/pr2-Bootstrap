@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -7,8 +7,8 @@ body {
 }
 
 .navbar-brand {
-  font-size: 30px;
-  letter-spacing: 1px;
+  font-size: 40px;
+  letter-spacing: 2px;
   color: #285E67;
 }
 
@@ -26,13 +26,59 @@ body {
   font-weight: 600;
   line-height: 82px;
   text-align: center;
-  text-underline-position: from-font;
-  -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
   color: #2B2B2B;
 }
 
 p {
   font-size: 20px;
   font-weight: 50;
+}
+
+.btnRedondo {
+  padding: 16px;
+  gap: 16px;
+  width: 211px;
+  height: 56px;
+  background-color: #285E67;
+  border-radius: 67px;
+}
+
+.cuadrado {
+  width: 50%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.icono {
+  border-radius: 20%;
+  width: 60px;
+  padding: auto;
+}
+
+.bordeRedondo {
+  border-radius: 20px;
+  padding-left: 50px;
+}
+
+.rosado {
+  background-color: hsl(18, 86%, 92%);
+  width: 90%;
+  border-radius: 30px;
+  position: absolute;
+}
+
+.espacio {
+  margin: 150px;
+}
+
+.footer {
+  background-color: #285E67;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.iconoRedes {
+  font-size: 1.5rem;
+  margin-left: 25px;
 }/*# sourceMappingURL=custom.css.map */
