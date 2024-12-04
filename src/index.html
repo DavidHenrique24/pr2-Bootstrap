@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica 2</title>
-    <link rel="stylesheet" href="./styles/custom.css">
+    <link rel="stylesheet" href="./styles/custom.scss">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     
 
@@ -15,7 +15,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <div class="d-flex align-items-center">
-                <img src="https://animota.net/cdn/shop/files/00084069042_03.jpg?v=1695784223&width=1946" class="rounded-circle me-2" alt="Imagen circular" width="50" height="50">
+                <img src="https://th.bing.com/th/id/R.d8ddf252aa4c606e951f18f599a195a4?rik=VtsMSKL7VfQARg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fc%2f9%2f0%2f507863.jpg&ehk=maOE5YLHY2GnO4DPDtcZzRLH1watju0Wcm5UHsIFYeY%3d&risl=&pid=ImgRaw&r=0" class="rounded-circle me-2" alt="Imagen circular" width="50" height="50">
                 <a class="navbar-brand fw-bold" href="#">Logo</a>
                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,31 +54,42 @@
         <span></span>
         <div class="espacio"></div>
         <!-- IMAGENES -->
-        <div class="d-flex justify-content-center ">
-            <img src="https://s3-alpha-sig.figma.com/img/520f/357c/817216ca9b198a04ed0361302259b8fd?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hpUiYyGDm2F2K5JCvXx-jf0A3RjvHlWXkxN-0pmGTVzyXpPxWtmZkPQ7EvgoTqzILoLvu6nUlEq4eGyyqtzEfagLR7a-ApzKMB4wY5M8anuDP2xj2KNOBGnmUVzxvFZEOtNsFeQPhVh~jQ1v~ghm4s3sOuNkTCsuNQBAFYmDJsZzQFcvjF2PcD9-G-woV5T7pdO9ztvDP5uRfg4m3XWE24P-1l55rkV61qStjBhlNlF8iq46TpYdxt5Yaq8yEU8TBn2bWHKHIm266i7Azaa29PMvX69BW~dFiOKgWNFoJhuX9hMqAXtywb6Sl3abgTsTkDA4glzZBRP9KLOZ4YdEnw__" alt="Imagen 1" class="cuadrado me-3">
-            <img src="https://s3-alpha-sig.figma.com/img/812e/1bda/19dfb6832f57ab0e52346f7b84f9692b?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dyfOG48SidvBdgvUw0V8iQgVZmotWffwXSwiL6hM9paET6aFf~JqLTnNUh7Zb0svkSvEAaRhTgm~LBehWc00dXZU3auQKUNNGUjPvIDo9QWvmRVKgbZ4galWiKHnJs8LmLDL3xlEpFPtmus8LSOG4fITMsILbAP5zQgkQW82CyK8pWYIwcboankR0Qtoz-ImkRgNsh1Euav45KndZQsWzooN~ESBzYE55VdPPjM6da6SZ1PjcxhULh3ip3KpRo0ZnQZH~~0Eq4dpXIEhyQFN0RbFy5p1JKTgqdDZkvPkoyCGKu4Js5K42w1raSJH88ZGr1KU9PjsNJeJ3w3rgIRofQ__" alt="Imagen 2" class="cuadrado">
+        <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+            <img src="https://s3-alpha-sig.figma.com/img/520f/357c/817216ca9b198a04ed0361302259b8fd?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hpUiYyGDm2F2K5JCvXx-jf0A3RjvHlWXkxN-0pmGTVzyXpPxWtmZkPQ7EvgoTqzILoLvu6nUlEq4eGyyqtzEfagLR7a-ApzKMB4wY5M8anuDP2xj2KNOBGnmUVzxvFZEOtNsFeQPhVh~jQ1v~ghm4s3sOuNkTCsuNQBAFYmDJsZzQFcvjF2PcD9-G-woV5T7pdO9ztvDP5uRfg4m3XWE24P-1l55rkV61qStjBhlNlF8iq46TpYdxt5Yaq8yEU8TBn2bWHKHIm266i7Azaa29PMvX69BW~dFiOKgWNFoJhuX9hMqAXtywb6Sl3abgTsTkDA4glzZBRP9KLOZ4YdEnw__" 
+                 class="mb-3 mb-lg-0 me-lg-3 cuadrado" 
+                 style="width: 100%; max-width: 600px; height: auto;">
+            <img src="https://s3-alpha-sig.figma.com/img/812e/1bda/19dfb6832f57ab0e52346f7b84f9692b?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dyfOG48SidvBdgvUw0V8iQgVZmotWffwXSwiL6hM9paET6aFf~JqLTnNUh7Zb0svkSvEAaRhTgm~LBehWc00dXZU3auQKUNNGUjPvIDo9QWvmRVKgbZ4galWiKHnJs8LmLDL3xlEpFPtmus8LSOG4fITMsILbAP5zQgkQW82CyK8pWYIwcboankR0Qtoz-ImkRgNsh1Euav45KndZQsWzooN~ESBzYE55VdPPjM6da6SZ1PjcxhULh3ip3KpRo0ZnQZH~~0Eq4dpXIEhyQFN0RbFy5p1JKTgqdDZkvPkoyCGKu4Js5K42w1raSJH88ZGr1KU9PjsNJeJ3w3rgIRofQ__" 
+                class="cuadrado"
+                 style="width: 100%; max-width: 600px; height: auto;">
         </div>
+        
         <div class="espacio"></div>
 
           <!--SECCION DE WELLBEING -->
-        <section class="bordeRedondo bg-info m-2 py-2 ">
-                    <div class="row">
-                       <div class="col">
-                      <h4 class="custom-text">Wellbeing is Welldoing</h4>
-                          <div class="row">
-                             <div class="col">
-                                <img src="./styles/imagenes/image.png" alt="" class="icono"><br><br>
-                                <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio sunt, omnis dignissimos vitae</p>
-                             </div>
-                             <div class="col">
-                                <img src="./styles/imagenes/image.png" alt="" class="icono"><br><br>
-                                <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio sunt, omnis dignissimos vitae</p>
-                             </div>
-                          </div>
-                       </div>
-                       <div class="col "><img src="./styles/imagenes/mujer.png" alt="" width="500px"></div>
+          <section class="bordeRedondo bg-info m-2 py-2">
+            <div class="row flex-column flex-xl-row">
+             
+                <div class="col">
+                    <h4 class="custom-text text-center text-xl-start">Wellbeing is Welldoing</h4>
+                    <div class="row text-center text-xl-start">
+                        <div class="col-12 col-md-6 mb-3">
+                            <img src="./styles/imagenes/image.png" alt="" class="icono mb-2">
+                            <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio sunt, omnis dignissimos vitae</p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img src="./styles/imagenes/image.png" alt="" class="icono mb-2">
+                            <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio sunt, omnis dignissimos vitae</p>
+                        </div>
                     </div>
+                </div>
+        
+               
+                <div class="col text-center text-xl-end mt-3 mt-xl-0">
+                    <img src="./styles/imagenes/mujer.png" alt="" width="100%" class="d-none d-xl-block">
+                </div>
+            </div>
         </section>
+        
         <div class="espacio"></div>
 
         <!-- SECCION FRESH ORGANIC         -->
@@ -103,28 +114,29 @@
                 
             </div>
         </section>
+        <!-- seccion piña -->
         <div class="espacio"></div>
-        <!-- SECCION WHAT YOU EAT -->
-        <section class="bordeRedondo bg-info m-2 py-5 ">
-            <div class="row align-items-center">
-                <div class="col">
-                    <div class="col "><img src="./styles/imagenes/pina.jpg" alt="" width="500px"></div>
+        <section class="bordeRedondo bg-info m-2 py-5">
+            <div class="d-flex flex-column flex-xl-row align-items-center">
+                <div class="col text-center text-xl-start mb-4 mb-xl-0">
+                    <img src="./styles/imagenes/pina.jpg" alt="Piña" width="500px" class="d-none d-xl-block">
                 </div>
                 <div class="col">
                     <h4 class="custom-text" style="font-size: 50px; text-align: left;">You are what you eat</h4>
                     <div class="row">
-                        <div class="col">
-                            <img src="./styles/imagenes/plantaRosa.jpg" alt="" class="icono"> <br><br>
+                        <div class="col ">
+                            <img src="./styles/imagenes/plantaRosa.jpg" alt="" class="icono mb-3">
                             <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio sunt, omnis dignissimos vitae</p>
                         </div>
                         <div class="col">
-                            <img src="./styles/imagenes/plantaRosa.jpg" alt="" class="icono"> <br><br>
+                            <img src="./styles/imagenes/plantaRosa.jpg" alt="" class="icono mb-3">
                             <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio sunt, omnis dignissimos vitae</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        
         <div class="espacio"></div>
         
         <!-- SECCION  Wellbeing 2-->
@@ -179,7 +191,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <div class="d-flex align-items-center">
-                    <img src="https://animota.net/cdn/shop/files/00084069042_03.jpg?v=1695784223&width=1946" class="rounded-circle me-2" alt="Logo" width="50" height="50">
+                    <img src="https://th.bing.com/th/id/R.d8ddf252aa4c606e951f18f599a195a4?rik=VtsMSKL7VfQARg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fc%2f9%2f0%2f507863.jpg&ehk=maOE5YLHY2GnO4DPDtcZzRLH1watju0Wcm5UHsIFYeY%3d&risl=&pid=ImgRaw&r=0" class="rounded-circle me-2" alt="Logo" width="50" height="50">
                     <span class="text-white" style="font-size:25px;">Logo</span>
                 </div>
                 <div >
