@@ -6,10 +6,11 @@ body {
   margin-top: 20px;
 }
 
-.navbar-brand {
-  font-size: 40px;
-  letter-spacing: 2px;
+.logoVerde {
+  font-size: 30px;
+  letter-spacing: 1px;
   color: #285E67;
+  text-decoration: none;
 }
 
 .navbar-nav .nav-link {
@@ -44,8 +45,6 @@ p {
 }
 
 .cuadrado {
-  width: 50%;
-  height: auto;
   border-radius: 30px;
 }
 
